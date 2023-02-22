@@ -42,7 +42,7 @@ img{
 
 .gallery {
     position: fixed;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .8);
     top: 0;
     right: 0;
     left: 0;
@@ -53,6 +53,7 @@ img{
     opacity: 0;
     pointer-events: none;
     transform: scale(0.8);
+    transition: .25s;
 }
 
 .gallery-inner {
